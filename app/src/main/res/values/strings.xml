@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Chat Room</string>
+
+    <string-array name="gender">
+        <item>Select gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="blood_type">
+        <item>Select your blood type</item>
+        <item>A-positive</item>
+        <item>A-negative</item>
+        <item>B-positive</item>
+        <item>B-negative</item>
+        <item>O-positive</item>
+        <item>O-negative</item>
+        <item>AB-positive</item>
+        <item>AB-negative</item>
+    </string-array>
+
+    <string-array name="City">
+        <item>Select your city</item>
+        <item>Cairo</item>
+        <item>Alexandria</item>
+        <item>Giza</item>
+        <item>Qalyubia</item>
+        <item>Suez</item>
+        <item>Asyut</item>
+        <item>Zagazig</item>
+        <item>Fayoum</item>
+    </string-array>
+    <string name="title_activity_sign_in">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>
