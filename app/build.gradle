@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.samar.chatroom"
+        applicationId "softagi.ss.chatroom"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
@@ -59,7 +59,5 @@ dependencies {
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.4.+'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
-
-
 }
 apply plugin: 'com.google.gms.google-services'

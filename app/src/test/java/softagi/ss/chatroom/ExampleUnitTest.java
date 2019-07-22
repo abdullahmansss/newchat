@@ -1,4 +1,4 @@
-package com.samar.chatroom;
+package softagi.ss.chatroom;
 
 import org.junit.Test;
 

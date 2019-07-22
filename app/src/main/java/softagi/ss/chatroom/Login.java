@@ -1,11 +1,9 @@
-package com.samar.chatroom;
+package softagi.ss.chatroom;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 
@@ -17,6 +15,7 @@ import android.widget.Toast;
 import com.balysv.materialripple.MaterialRippleLayout;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.samar.chatroom.R;
 
 public class Login extends AppCompatActivity {
 
@@ -67,7 +66,7 @@ public class Login extends AppCompatActivity {
         firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        Intent intent = new Intent(getApplicationContext(), RoomsActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(intent);
                     }
                     else {

@@ -1,12 +1,12 @@
-package com.samar.chatroom;
+package softagi.ss.chatroom;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import com.balysv.materialripple.MaterialRippleLayout;
+import com.samar.chatroom.R;
 
 public class StartActivity extends AppCompatActivity {
 

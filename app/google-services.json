@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:451595272269:android:3893f8dbf56899f6",
         "android_client_info": {
-          "package_name": "com.samar.chatroom"
+          "package_name": "softagi.ss.chatroom"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "451595272269-tc0c17tk48hfcmg0kd7fjaq763r805du.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.samar.chatroom",
+            "package_name": "softagi.ss.chatroom",
             "certificate_hash": "0f29110d06576a9e73253d2ce3d9fb0200c58a86"
           }
         },

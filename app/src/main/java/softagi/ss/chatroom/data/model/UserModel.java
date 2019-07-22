@@ -1,13 +1,17 @@
-package com.samar.chatroom.data.model;
+package softagi.ss.chatroom.data.model;
 
 public class UserModel {
-   String first_name,last_name,email,password,mobile_number,address,gender,blood_type,dateOfBirth,last_donate,diseases, imageUrl;
+   private String userid,fullname,email,mobile_number,address,gender,blood_type,dateOfBirth,last_donate,diseases, imageUrl;
+   private boolean isSelected = false;
 
-   public UserModel(String first_name, String last_name, String email, String password, String mobile_number, String address, String gender, String blood_type, String dateOfBirth, String last_donate, String diseases, String imageUrl) {
-      this.first_name = first_name;
-      this.last_name = last_name;
+   public UserModel() {
+   }
+
+   public UserModel(String userid, String fullname, String email, String mobile_number, String address, String gender, String blood_type, String dateOfBirth, String last_donate, String diseases, String imageUrl)
+   {
+      this.userid = userid;
+      this.fullname = fullname;
       this.email = email;
-      this.password = password;
       this.mobile_number = mobile_number;
       this.address = address;
       this.gender = gender;
@@ -18,20 +22,21 @@ public class UserModel {
       this.imageUrl = imageUrl;
    }
 
-   public String getFirst_name() {
-      return first_name;
+   public void setSelected(boolean selected) {
+      isSelected = selected;
    }
 
-   public void setFirst_name(String first_name) {
-      this.first_name = first_name;
+
+   public boolean isSelected() {
+      return isSelected;
    }
 
-   public String getLast_name() {
-      return last_name;
+   public String getFullname() {
+      return fullname;
    }
 
-   public void setLast_name(String last_name) {
-      this.last_name = last_name;
+   public void setFullname(String fullname) {
+      this.fullname = fullname;
    }
 
    public String getEmail() {
@@ -40,14 +45,6 @@ public class UserModel {
 
    public void setEmail(String email) {
       this.email = email;
-   }
-
-   public String getPassword() {
-      return password;
-   }
-
-   public void setPassword(String password) {
-      this.password = password;
    }
 
    public String getMobile_number() {
@@ -112,5 +109,13 @@ public class UserModel {
 
    public void setImageUrl(String imageUrl) {
       this.imageUrl = imageUrl;
+   }
+
+   public String getUserid() {
+      return userid;
+   }
+
+   public void setUserid(String userid) {
+      this.userid = userid;
    }
 }
