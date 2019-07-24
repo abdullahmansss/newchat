@@ -10,6 +10,11 @@ public class RoomModel
     public RoomModel() {
     }
 
+    public RoomModel(String name)
+    {
+        this.name = name;
+    }
+
     public RoomModel(String name, String imageURL, List<String> members) {
         this.name = name;
         this.imageURL = imageURL;

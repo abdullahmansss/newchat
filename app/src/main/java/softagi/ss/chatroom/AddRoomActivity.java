@@ -250,6 +250,12 @@ public class AddRoomActivity extends AppCompatActivity
 
         String key = databaseReference.child("Rooms").push().getKey();
         databaseReference.child("Rooms").child(key).setValue(roomModel);
+
+        for (String i : id)
+        {
+            databaseReference.child("RoomsChat").child(i).child(key).setValue(roomModel);
+        }
+
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
         finish();
     }

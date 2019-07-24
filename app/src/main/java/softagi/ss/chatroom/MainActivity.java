@@ -18,6 +18,8 @@ import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
+
+import softagi.ss.chatroom.Fragments.MyRooms;
 import softagi.ss.chatroom.Fragments.RoomsFragment;
 import softagi.ss.chatroom.Fragments.UsersFragment;
 
@@ -52,13 +54,15 @@ public class MainActivity extends AppCompatActivity
             Fragment [] fragments = new Fragment[]
                     {
                             new RoomsFragment(),
-                            new UsersFragment()
+                            new UsersFragment(),
+                            new MyRooms()
                     };
 
             String [] names = new String[]
                     {
                             "ROOMS",
-                            "USERS"
+                            "USERS",
+                            "MY ROOMS"
                     };
 
             @Override

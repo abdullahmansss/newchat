@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/other_message_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="end"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/chat_item2"
+            android:layout_marginRight="15dp"
+            android:padding="15dp"
+            android:gravity="end"
+            >
+
+            <TextView
+                android:id="@+id/chat_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abdullah Mansour"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/chat_text2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/my_message_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:visibility="gone"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/chat_item"
+            android:layout_marginLeft="15dp"
+            android:padding="15dp"
+            >
+
+            <TextView
+                android:id="@+id/chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abdullah Mansour"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/chat_text"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
